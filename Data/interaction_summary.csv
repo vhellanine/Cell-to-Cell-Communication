@@ -1,0 +1,32 @@
+# Cell-to-Cell Communication: NK Cell to Macrophage
+
+## Interaction Summary
+
+This table summarizes the interactions and protein associations identified using OmniPath, IntAct, and STRING. The results support the proposed IFN-γ signaling pathway, although the databases provide different types of evidence.
+
+| Protein_A | Protein_B | Database | Result | Evidence |
+|---|---|---|---|---|
+| IFNG | IFNGR1 | OmniPath | Interaction displayed | OmniPath search results showed an IFNG → IFNGR1 interaction, with multiple supporting sources and references. |
+| IFNG | IFNGR1 | IntAct | Physical association supported | IntAct accession EBI-64053318; solid-phase assay; positive interaction; in vitro; PMID: 32822567. |
+| IFNGR1 | IFNGR2 | IntAct | Not confirmed | The search page displayed 270 entries overall, but a specific IFNGR1–IFNGR2 interaction record was not confirmed. |
+| IFNGR1 | JAK1 | STRING | Protein association shown | Present in the STRING network. STRING associations do not necessarily indicate direct physical binding. |
+| IFNGR2 | JAK2 | STRING | Protein association shown | Present in the STRING network. STRING associations do not necessarily indicate direct physical binding. |
+| JAK1 | STAT1 | STRING | Protein association shown | Present in the STRING network and consistent with the proposed JAK–STAT signaling pathway. |
+
+## Interpretation
+
+The database results are consistent with a possible signaling pathway in which a natural killer (NK) cell releases interferon-gamma (IFN-γ), which can bind to the IFN-γ receptor complex on a receiving cell, such as a macrophage. Receptor activation can initiate JAK–STAT signaling, involving JAK1, JAK2, and STAT1, and lead to changes in gene expression.
+
+The OmniPath results support the IFNG–IFNGR1 relationship, while the IntAct record provides experimental evidence of a physical association between IFNG and IFNGR1 under the reported assay conditions. The STRING network shows functional protein associations related to interferon and JAK–STAT signaling. These results support the proposed model, but they do not by themselves demonstrate that the complete signaling sequence occurred directly between an NK cell and a macrophage in a specific experiment.
+
+## Databases Used
+
+- **OmniPath:** https://omnipathdb.org/
+- **STRING:** https://string-db.org/
+- **IntAct:** https://www.ebi.ac.uk/intact/
+
+## Proposed Communication Model
+
+**NK cell → IFN-γ (IFNG) → IFNGR1/IFNGR2 → JAK1/JAK2 → STAT1 → Macrophage response**
+
+This model represents the proposed pathway based on the collected database evidence. The exact cellular response depends on the macrophage's condition and the surrounding biological context.
