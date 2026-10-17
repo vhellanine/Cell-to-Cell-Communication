@@ -1,8 +1,8 @@
 | Protein_A | Protein_B | Database | Result | Evidence |
 |---|---|---|---|---|
-| IFNG | IFNGR1 | OmniPath | Interaction displayed | OmniPath search results showed an IFNG → IFNGR1 interaction, with multiple supporting sources and references. |
-| IFNG | IFNGR1 | IntAct | Physical association supported | IntAct accession EBI-64053318; solid-phase assay; positive interaction; in vitro; PMID: 32822567. |
-| IFNGR1 | IFNGR2 | IntAct | Not confirmed | The search page displayed 270 entries overall, but a specific IFNGR1–IFNGR2 interaction record was not confirmed. |
-| IFNGR1 | JAK1 | STRING | Protein association shown | Present in the STRING network. STRING associations do not necessarily indicate direct physical binding. |
-| IFNGR2 | JAK2 | STRING | Protein association shown | Present in the STRING network. STRING associations do not necessarily indicate direct physical binding. |
-| JAK1 | STAT1 | STRING | Protein association shown | Present in the STRING network and consistent with the proposed JAK–STAT signaling pathway. |
+| IFNG | IFNGR1 | OmniPath | Interaction displayed | IFNG → IFNGR1 interaction shown in search results with multiple supporting sources. |
+| IFNG | IFNGR1 | IntAct | Physical association supported | Solid-phase assay; in vitro; positive interaction; IntAct accession EBI-64053318; PMID: 32822567. |
+| IFNGR1 | IFNGR2 | IntAct | Not confirmed | Search page displayed 270 entries overall; a specific IFNGR1–IFNGR2 record was not confirmed. |
+| IFNGR1 | JAK1 | STRING | Protein association shown | Present in the 11-node, 55-edge network; STRING associations do not necessarily indicate direct physical binding. |
+| IFNGR2 | JAK2 | STRING | Protein association shown | Present in the 11-node, 55-edge network; STRING associations do not necessarily indicate direct physical binding. |
+| JAK1 | STAT1 | STRING | Protein association shown | Present in the 11-node, 55-edge network; consistent with JAK–STAT signaling. |
