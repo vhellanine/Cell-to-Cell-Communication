@@ -1,8 +1,7 @@
-| Protein A | Protein B | Database | Result |
-|---|---|---|---|
-| IFNG | IFNGR1 | OmniPath | Interaction displayed |
-| IFNG | IFNGR1 | IntAct | Physical association supported |
-| IFNGR1 | IFNGR2 | IntAct | Specific interaction not confirmed |
-| IFNGR1 | JAK1 | STRING | Protein association shown |
-| IFNGR2 | JAK2 | STRING | Protein association shown |
-| JAK1 | STAT1 | STRING | Protein association shown |
+Protein_A,Protein_B,Database,Result,Evidence
+IFNG,IFNGR1,OmniPath,Interaction displayed,"IFNG to IFNGR1 interaction shown in search results with multiple supporting sources"
+IFNG,IFNGR1,IntAct,Physical association supported,"Solid-phase assay; in vitro; positive interaction; IntAct accession EBI-64053318; PMID: 32822567"
+IFNGR1,IFNGR2,IntAct,Not confirmed,"Search page displayed 270 entries overall; a specific IFNGR1-IFNGR2 record was not confirmed"
+IFNGR1,JAK1,STRING,Protein association shown,"Present in the 11-node, 55-edge network; STRING associations do not necessarily indicate direct physical binding"
+IFNGR2,JAK2,STRING,Protein association shown,"Present in the 11-node, 55-edge network; STRING associations do not necessarily indicate direct physical binding"
+JAK1,STAT1,STRING,Protein association shown,"Present in the 11-node, 55-edge network; consistent with JAK-STAT signaling"
